@@ -1,10 +1,10 @@
-# [Black Dashboard Angular](https://demos.creative-tim.com/black-dashboard-angular/#/dashboard?ref=bda-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard-angular%2F%23%2Fadmin%2Fdashboard&text=Black%20Dashboard%20Angular%20by%20Creative%20Tim%20%7C%20Free%20Angular%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard-angular%2F&via=creativetim&hashtags=angular%2Ccreativetim%2Cdark%2Cdashboard%2Cbootstrap%2Cangular)
+# [Black Dashboard Angular](https://demos.creative-tim.com/techpro-dashboard/#/dashboard?ref=bda-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Ftechpro-dashboard%2F%23%2Fadmin%2Fdashboard&text=Black%20Dashboard%20Angular%20by%20Creative%20Tim%20%7C%20Free%20Angular%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Ftechpro-dashboard%2F&via=creativetim&hashtags=angular%2Ccreativetim%2Cdark%2Cdashboard%2Cbootstrap%2Cangular)
 
 
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/black-dashboard-angular.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/black-dashboard-angular.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/techpro-dashboard.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/techpro-dashboard.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-angular/bd_angular.gif)
+![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/techpro-dashboard/bd_angular.gif)
 
 
 Black Dashboard Angular is a beautiful [Bootstrap 4](http://getbootstrap.com/) and [Angular](https://angular.io/) Admin Dashboard with a huge number of components built to fit together and look amazing. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
@@ -40,29 +40,29 @@ We are very excited to share this dashboard with you and we look forward to hear
 ## Versions
 
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard?ref=bda-readme)
-[<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-angular?ref=bda-readme)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/techpro-dashboard?ref=bda-readme)
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-react?ref=bda-readme)
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-black-dashboard?ref=bda-readme)
 
 
 | HTML | Angular | React | Vue |
 | --- | --- | --- | --- |
-| [![Black Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/93/thumb/opt_bd_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard?ref=bda-readme) | [![Black Dashboard Angular](https://s3.amazonaws.com/creativetim_bucket/products/169/thumb/opt_bd_angular_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard-angular?ref=bda-readme) | [![Black Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/136/thumb/opt_bd_react.jpg)](https://www.creative-tim.com/product/black-dashboard-react?ref=bda-readme) | [![Vue Black Dashboard](https://s3.amazonaws.com/creativetim_bucket/products/99/thumb/opt_bd_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-black-dashboard?ref=bda-readme) |
+| [![Black Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/93/thumb/opt_bd_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard?ref=bda-readme) | [![Black Dashboard Angular](https://s3.amazonaws.com/creativetim_bucket/products/169/thumb/opt_bd_angular_thumbnail.jpg)](https://www.creative-tim.com/product/techpro-dashboard?ref=bda-readme) | [![Black Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/136/thumb/opt_bd_react.jpg)](https://www.creative-tim.com/product/black-dashboard-react?ref=bda-readme) | [![Vue Black Dashboard](https://s3.amazonaws.com/creativetim_bucket/products/99/thumb/opt_bd_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-black-dashboard?ref=bda-readme) |
 
 ## Demo
 
 | Dashboard | User Profile | Tables | RTL | Notification |
 | --- | --- | --- | --- | --- |
-| [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-angular/dashboard.png?raw=true)](https://demos.creative-tim.com/black-dashboard-angular/#/dashboard?ref=bda-readme) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-angular/user.png?raw=true)](https://demos.creative-tim.com/black-dashboard-angular/#/user?ref=bda-readme) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-angular/tables.png?raw=true)](https://demos.creative-tim.com/black-dashboard-angular/#/tables?ref=bda-readme) | [![RTL Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-angular/rtl.png?raw=true)](https://demos.creative-tim.com/black-dashboard-angular/#/maps?ref=bda-readme) | [![Notification page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/black-dashboard-angular/notifications.png?raw=true)](https://demos.creative-tim.com/black-dashboard-angular/#/notifications?ref=bda-readme)
+| [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/techpro-dashboard/dashboard.png?raw=true)](https://demos.creative-tim.com/techpro-dashboard/#/dashboard?ref=bda-readme) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/techpro-dashboard/user.png?raw=true)](https://demos.creative-tim.com/techpro-dashboard/#/user?ref=bda-readme) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/techpro-dashboard/tables.png?raw=true)](https://demos.creative-tim.com/techpro-dashboard/#/tables?ref=bda-readme) | [![RTL Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/techpro-dashboard/rtl.png?raw=true)](https://demos.creative-tim.com/techpro-dashboard/#/maps?ref=bda-readme) | [![Notification page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/techpro-dashboard/notifications.png?raw=true)](https://demos.creative-tim.com/techpro-dashboard/#/notifications?ref=bda-readme)
 
-[View More](https://demos.creative-tim.com/black-dashboard-angular/#/dashboard?ref=bda-readme).
+[View More](https://demos.creative-tim.com/techpro-dashboard/#/dashboard?ref=bda-readme).
 
 
 ## Quick start
 
 Quick start options:
 
-- [Download from Creative Tim](https://www.creative-tim.com/product/black-dashboard-angular?ref=bda-readme).
+- [Download from Creative Tim](https://www.creative-tim.com/product/techpro-dashboard?ref=bda-readme).
 
 ## Terminal Commands
 
@@ -79,7 +79,7 @@ Quick start options:
 Within the download you'll find the following directories and files:
 
 ```
-black-dashboard-angular
+techpro-dashboard
 ├── CHANGELOG.md
 ├── documentation
 ├── ISSUE_TEMPLATE.md
@@ -186,12 +186,12 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- Demo: https://demos.creative-tim.com/black-dashboard-angular/#/dashboard?ref=bda-readme
-- Download Page: https://www.creative-tim.com/product/black-dashboard-angular?ref=bda-readme
-- Documentation: https://demos.creative-tim.com/black-dashboard-angular/#/documentation/tutorial?ref=bda-readme
+- Demo: https://demos.creative-tim.com/techpro-dashboard/#/dashboard?ref=bda-readme
+- Download Page: https://www.creative-tim.com/product/techpro-dashboard?ref=bda-readme
+- Documentation: https://demos.creative-tim.com/techpro-dashboard/#/documentation/tutorial?ref=bda-readme
 - License Agreement: https://www.creative-tim.com/license?ref=bda-readme
 - Support: https://www.creative-tim.com/contact-us?ref=bda-readme
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/black-dashboard-angular/issues?ref=bda-readme)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/techpro-dashboard/issues?ref=bda-readme)
 
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the black Dashboard Angular. Here are some advices for our users that want to report an issue:
@@ -207,7 +207,7 @@ If you have questions or need help integrating the product please [contact us](h
 ## Licensing
 
 - Copyright 2019 Creative Tim (https://www.creative-tim.com?ref=bda-readme)
-- Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-angular/blob/master/LICENSE.md)
+- Licensed under MIT (https://github.com/creativetimofficial/techpro-dashboard/blob/master/LICENSE.md)
 
 ## Useful Links
 
