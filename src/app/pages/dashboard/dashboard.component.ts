@@ -1,8 +1,14 @@
 import { Component, OnInit } from "@angular/core";
 import Chart from 'chart.js';
+import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/firestore';
+import { map } from 'rxjs/operators';
+import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
+import { Resume } from 'src/app/shared/models/resume.module';
 
 @Component({
   selector: "app-dashboard",
+  styleUrls: ['./dashboard.component.scss'],
   templateUrl: "dashboard.component.html"
 })
 export class DashboardComponent implements OnInit {
@@ -18,6 +24,7 @@ export class DashboardComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
+
     var gradientChartOptionsConfigurationWithTooltipBlue: any = {
       maintainAspectRatio: false,
       legend: {
@@ -467,4 +474,6 @@ export class DashboardComponent implements OnInit {
     this.myChartData.data.datasets[0].data = this.data;
     this.myChartData.update();
   }
+
+
 }
