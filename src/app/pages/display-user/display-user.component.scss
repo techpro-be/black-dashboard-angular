@@ -1,0 +1,69 @@
+.bg-image-header {
+  background:url(src/assets/images/Header-v2.png) no-repeat center;
+  width:100%;
+  height:196px;
+}
+
+.bg-image-footer {
+  background:url(src/assets/images/footer-v1.png) no-repeat center;
+  width:100%;
+  height:196px;
+}
+
+.name{
+  margin-left: 90px;
+  margin-top: 65px;
+  color: white;
+  font-size: 29px !important;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+
+}
+
+.surname{
+  margin-left: 10px;
+  margin-top: 65px;
+  color: white;
+  font-size: 29px !important;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+ .rounded-image-user {
+    height: 120px!important;
+    width: 120px!important;
+    border-radius: 50%!important;
+    object-fit: fit !important;
+    margin-top: 32px;
+  }
+
+  .div-cv{
+    padding: 15px!important;
+    align-content: center!important;
+    font-weight: bold;
+    width: 596px;
+  }
+
+.user-profile{
+  border-radius: 50%;
+    width: 129px;
+    margin-left: 188px;
+    margin-top: 32px;
+}
+.form-size{
+  widows: 500px;
+  height: auto;
+}
+
+.position{
+  margin-left: 90px;
+  margin-top: -30px !important;
+  font-size: 18px!important;
+  color: white;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  }
+
+  .m-l-r{
+    margin-right: 10px;
+    margin-left: 10px;
+  }

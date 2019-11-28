@@ -1,0 +1,112 @@
+
+<div fxFlex="25"></div>  <!--First empty div-->
+
+
+<div #content id="contentToConvert" *ngIf="resume$ | async as resume" fxLayoutGap="16px">
+
+    <div fxlayout="row" class="bg-image-header">  <!--Header-->
+        <div fxLayout="column" >
+          <div fxLayout="row">
+                <div ><p class="name">{{resume.name}}</p></div>
+                <div><p class="surname">{{resume.surname.charAt(0)}}.</p></div>
+                <div fxFlex="30"></div>
+                <div fxFlex="40"fxLayoutAlign="center center">   <img src="{{resume.profilePic}}" class="rounded-image-user" alt=""></div>
+          </div>
+            <div><p class="position">{{resume.position}} </p></div>
+        </div>
+    </div>
+
+    <div fxLayout="column" fxLayoutGap="10px" class="div-cv">   <!--Personal Background-->
+      <div fxflex>
+        <h2>Personal Background</h2>
+        <div>{{resume.personalBackground}}</div>
+      </div>
+          <mat-divider></mat-divider>
+    </div>
+
+
+    <div fxLayout="column" class="div-cv">   <!--Experience-->
+           <div class="ml-2" >
+              <h2>Work Experience</h2>
+           </div>
+
+          <div class="ml-2 mb-2" *ngFor="let experience of resume.experiences" fxLayoutGap="10px;">
+            <div fxLayout="row">
+              <div>{{experience.startDate}}</div> <div class="m-l-r">till</div><div>{{experience.endDate}}</div>
+            </div>
+            <div><p> {{experience.position}}</p></div>
+            <div class="mb-1">{{experience.employer}}</div>
+            <div><p>{{experience.jobDescription}}</p></div>
+          </div>
+<mat-divider></mat-divider>
+
+    </div>
+
+    <div fxLayout="column" fxLayoutGap="5px;" class="div-cv">   <!--Education-->
+        <div class="ml-2">
+          <h2>Education & Trainings</h2>
+        </div>
+      <div  class="ml-2 mb-2" *ngFor="let education of resume.educations">
+        <div fxLayout="row">
+          <div> {{education.startingYear}}</div><div class="m-l-r">till</div><div>{{education.passingYear}}</div>
+        </div>
+        <div fxLayout="row">
+          <div>{{education.degree}}</div> <div class="m-l-r">at</div> <div>{{education.college}}</div>
+        </div>
+      </div>
+      <mat-divider></mat-divider>
+    </div>
+
+    <div fxLayout="column" fxLayoutGap="5px;" class="div-cv">  <!--Languages-->
+      <div class="ml-2">
+        <h2>Languages</h2>
+      </div>
+      <div class="ml-2 mb-2" fxLayout="column" *ngFor="let language of resume.languages" fxLayoutGap="10px;">
+        <div fxLayout="row" fxLayoutGap="20px;">
+          <div>{{language.languageName}}</div>
+          <div class="m-l-r"></div>
+          <div>{{language.languageLevel}}</div>
+        </div>
+      </div>
+      <mat-divider></mat-divider>
+    </div>
+
+    <div  class="ml-2" fxLayout="column" fxLayoutGap="5px;" class="div-cv">   <!--IT Knowledge-->
+        <div>
+          <h2>IT Knowledge</h2>
+        </div>
+        <div class="mb-2" fxLayout="column" *ngFor="let itlanguage of resume.itKnowledge" fxLayoutGap="10px;">
+          <div fxLayout="column" fxLayoutGap="20px;">
+            <div fxLayout="row" fxLayoutGap=15px>
+              <div>{{itlanguage.itSkill}}</div>
+              <div>{{itlanguage.level}}</div>
+            </div>
+
+            <div class="m-l-r"></div>
+            <div *ngIf="itlanguage.level=='Beginner'">
+              <img src="assets/images/beginner.png" alt="Beginner">
+            </div>
+            <div *ngIf="itlanguage.level=='Intermediate'">
+              <img src="assets/images/intermediate.png" alt="Intermediate">
+            </div>
+            <div *ngIf="itlanguage.level=='Advanced'">
+              <img src="assets/images/advanced.png" alt="Advanced">
+            </div>
+            <div *ngIf="itlanguage.level=='Expert'">
+              <img src="assets/images/expert.png" alt="Expert">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-image-footer">
+      </div>
+
+    </div>
+
+ <!-- <div fxLayout="row"  style="padding: 10px;" fxLayoutAlign="center center" fxLayoutGap="20px" >
+      <button mat-raised-button color="primary"  class="ml-1" (click)="downloadCv()"> Download CV</button>
+      <button mat-raised-button color="warn" [routerLink]="['/user/user-list']" routerLinkActive="router-link-active" > Back</button>
+    </div> -->
+
+<div fxFlex="25"></div>  <!--Last empty div-->

@@ -1,5 +1,5 @@
 
-<div class=" content">
+<div class=" content" *ngIf="user$ | async as user">
   <div class=" row">
     <div class=" col-md-8">
       <div class=" card">
@@ -9,10 +9,9 @@
             <div class=" row">
               <div class=" col-md-5 pr-md-1">
                 <div class=" form-group">
-                  <label> Company (disabled) </label>
+                  <label> {{user.name}} </label>
                   <input
                     class=" form-control"
-                    disabled=""
                     placeholder="Company"
                     type="text"
                     value="Creative Code Inc."
@@ -21,21 +20,21 @@
               </div>
               <div class=" col-md-3 px-md-1">
                 <div class=" form-group">
-                  <label> Username </label>
+                  <label>  {{user.surname}} </label>
                   <input
                     class=" form-control"
-                    placeholder="Username"
+                    placeholder="Surname"
                     type="text"
-                    value="michael23"
+                    value=""
                   />
                 </div>
               </div>
               <div class=" col-md-4 pl-md-1">
                 <div class=" form-group">
-                  <label for="exampleInputEmail1"> Email address </label>
+                  <label for="exampleInputEmail1"> {{user.email}} </label>
                   <input
                     class=" form-control"
-                    placeholder="mike@email.com"
+                    placeholder=""
                     type="email"
                   />
                 </div>
@@ -44,12 +43,12 @@
             <div class=" row">
               <div class=" col-md-6 pr-md-1">
                 <div class=" form-group">
-                  <label> First Name </label>
+                  <label> {{user.personalBackground}} </label>
                   <input
                     class=" form-control"
-                    placeholder="Company"
+                    placeholder="Personal Background"
                     type="text"
-                    value="Mike"
+                    value=""
                   />
                 </div>
               </div>
