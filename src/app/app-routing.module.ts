@@ -22,7 +22,8 @@ const routes: Routes = [
           './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
       }
     ]
-  }, {
+  },
+  {
     path: '',
     component: AuthLayoutComponent,
     children: [
